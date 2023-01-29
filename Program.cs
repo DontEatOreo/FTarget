@@ -99,7 +99,7 @@ audioBitrateOption.AddValidator(context =>
 Option<bool> printArgumentsOption = new(new[] { "-p", "--print" }, "Prints FFmpeg arguments");
 Option<bool> progressOption = new(new[] { "-pr", "--progress" }, "Prints progress");
 
-Option[] options = { filePathOption, outputFilePathOption, sizeOption, videoCodecOption, audioCodecOption, audioBitrateOption, printArgumentsOption };
+Option[] options = { filePathOption, outputFilePathOption, sizeOption, videoCodecOption, audioCodecOption, audioBitrateOption, printArgumentsOption, progressOption };
 var rootCommand = new RootCommand("Converts a video/audio file to a specified file size");
 foreach (var option in options)
     rootCommand.AddOption(option);
