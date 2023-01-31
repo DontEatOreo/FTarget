@@ -5,7 +5,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>1.0.0</Version>
+        <Version>2.0.0</Version>
         <PackageLicenseExpression>AGPL-3.0</PackageLicenseExpression>
         <Authors>DontEatOreo</Authors>
         <PackageProjectUrl>https://github.com/DontEatOreo/FTarget</PackageProjectUrl>
